@@ -470,7 +470,7 @@ else:
 # !!   "cellView": "form",
 # !!   "id": "MMpAcyrYWM_v"
 # !! }}
-skip_disconnect_for_run_all = True #@param {type: 'boolean'}
+skip_disconnect_for_run_all = False #@param {type: 'boolean'}
 
 if skip_disconnect_for_run_all == True:
     print('Skipping disconnect, uncheck skip_disconnect_for_run_all if you want to run it')
